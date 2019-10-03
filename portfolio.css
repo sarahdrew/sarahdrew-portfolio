@@ -3,18 +3,18 @@
 }
 
 body {
+  background-image: url("https://github.com/sarahdrew/sarahdrew-portfolio/blob/master/images/0-1.png?raw=true");
+  background-repeat: repeat-y;
   font-size: 20px;
   color: #081830;
   line-height: 1.5;
-  background-color: #475e7b;
   font-family: "Fahkwang", sans-serif;
-  color: white;
   padding: 25px;
 }
 
 nav {
   padding: 1% 0;
-  background-color: #7f7392;
+  background-color: #506177;
   position: fixed;
   top: 0;
   left: 0;
@@ -22,13 +22,21 @@ nav {
   z-index: 10;
   font-family: "Fahkwang", sans-serif;
   text-align: center;
+  color: white;
+}
+
+nav .a:link{
+  color:white;
+}
+nav .a:visited{
+color: white;
 }
 
 a:link {
-  color: white;
+  color: black
 }
 a:visited {
-  color: white;
+  color: black;
 }
 a:hover {
   color: #fa8185;

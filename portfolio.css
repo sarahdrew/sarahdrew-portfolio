@@ -3,7 +3,7 @@
 }
 
 body {
-  background-image: url("https://github.com/sarahdrew/sarahdrew-portfolio/blob/master/images/0-1.png?raw=true");
+  /* background-image: url("https://github.com/sarahdrew/sarahdrew-portfolio/blob/master/images/0-1.png?raw=true"); */
   background-repeat: repeat-y;
   font-size: 20px;
   color: #081830;
@@ -92,11 +92,13 @@ header {
 .project-desc {
   padding: 15px;
   float: left;
+  display: flex;
 }
 
 
 .move-explanation, .maintenance-explanation, .rehearsal-explanation{
   float: left;
+
 }
 
 .project-photo img{

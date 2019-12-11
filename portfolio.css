@@ -3,7 +3,6 @@
 }
 
 body {
-  /* background-image: url("https://github.com/sarahdrew/sarahdrew-portfolio/blob/master/images/0-1.png?raw=true"); */
   background-repeat: repeat-y;
   font-size: 20px;
   color: #081830;
@@ -14,7 +13,8 @@ body {
 
 nav {
   padding: 1% 0;
-  background-color: #506177;
+  background-color: #4a4a4a;
+  /* #506177; */
   position: fixed;
   top: 0;
   left: 0;
@@ -61,8 +61,8 @@ a:hover {
   padding: 15px;
   font-size: 30px;
   color: #fa8185;
-  background-color: rgb(80, 97, 119);
-  border: 1px solid rgb(61, 74, 90);
+  background-color: #4a4a4a;
+  border: 1px solid #4a4a4a;
   text-align: center;
 }
 
@@ -93,6 +93,7 @@ header {
   padding: 15px;
   float: left;
   display: flex;
+  align-items: center;
 }
 
 
@@ -110,8 +111,12 @@ header {
 .section-title{
   font-size: 25px;
   text-align: center;
-  background: #506177;
+  background: #4a4a4a;
   color: white;
+}
+
+.proj-break{
+  text-align: center;
 }
 
 

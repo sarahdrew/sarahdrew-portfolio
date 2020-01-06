@@ -7,7 +7,7 @@ body {
   font-size: 20px;
   color: #081830;
   line-height: 1.5;
-  font-family: "Fahkwang", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   padding: 25px;
 
 }
@@ -23,7 +23,7 @@ nav {
   left: 0;
   right: 0;
   z-index: 10;
-  font-family: "Fahkwang", sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   text-align: center;
   color: white;
 }
@@ -59,6 +59,10 @@ a:hover {
   padding: 10px;
   height:100%
 
+}
+
+.section-title{
+  font-family: 'Stoke', serif;
 }
 
 .short-bio {
@@ -106,11 +110,6 @@ header {
   align-items: center;
 }
 
-
-.move-explanation, .maintenance-explanation, .rehearsal-explanation{
-  /* float: left; */
-
-}
 
 .project-photo img{
   background: white;

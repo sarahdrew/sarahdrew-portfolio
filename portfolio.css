@@ -57,13 +57,10 @@ a:hover {
 .portrait-photo {
   margin: 12px;
   padding: 10px;
-  height:100%
-
+  height:100%;
+position: relative;
 }
 
-.section-title{
-  font-family: 'Stoke', serif;
-}
 
 .short-bio {
   padding: 15px;
@@ -83,6 +80,15 @@ header {
 
 .full-bio {
   padding: 20px;
+  display: flex;
+  width: 100%;
+
+}
+.bio{
+  flex:1;
+}
+.skills{
+  flex: 1;
 }
 
 .all-proj{
@@ -126,7 +132,7 @@ header {
 .section-title{
   font-size: 25px;
   text-align: center;
-  background: #4a4a4a;
+  background: #41c5e3;
   color: white;
 }
 
@@ -156,5 +162,6 @@ header img{
 }
   #portrait{
 display: none;   
+
   }
 }
